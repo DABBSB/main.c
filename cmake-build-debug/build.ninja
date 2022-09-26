@@ -49,8 +49,8 @@ cmake_ninja_workdir = D$:/web/C99/cmake-build-debug/
 
 build cmake_object_order_depends_target_C99: phony || CMakeFiles/C99.dir
 
-build CMakeFiles/C99.dir/ListArray.c.obj: C_COMPILER__C99_Debug D$:/web/C99/ListArray.c || cmake_object_order_depends_target_C99
-  DEP_FILE = CMakeFiles\C99.dir\ListArray.c.obj.d
+build CMakeFiles/C99.dir/lianbiao.c.obj: C_COMPILER__C99_Debug D$:/web/C99/lianbiao.c || cmake_object_order_depends_target_C99
+  DEP_FILE = CMakeFiles\C99.dir\lianbiao.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\C99.dir
   OBJECT_FILE_DIR = CMakeFiles\C99.dir
@@ -63,7 +63,7 @@ build CMakeFiles/C99.dir/ListArray.c.obj: C_COMPILER__C99_Debug D$:/web/C99/List
 #############################################
 # Link the executable C99.exe
 
-build C99.exe: C_EXECUTABLE_LINKER__C99_Debug CMakeFiles/C99.dir/ListArray.c.obj
+build C99.exe: C_EXECUTABLE_LINKER__C99_Debug CMakeFiles/C99.dir/lianbiao.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\C99.dir
