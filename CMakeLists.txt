@@ -3,4 +3,4 @@ project(C99 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(C99 lianbiao.c)
+add_executable(C99 zhan.c)
