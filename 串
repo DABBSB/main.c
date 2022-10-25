@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+
+typedef struct string {
+    char ch[10];
+    int len;
+} String;
+
+int find(String s, String t) {
+    int i = 0;//
+    int j;//主串的临时变量下标
+    int k;//t的下标
+    while (i <= s.len - t.len) {
+        j = i;
+        while ((k < t.len) && (s.ch[j] == t.ch[k])) {
+            k++;
+            j++;
+        }
+        if (k == t.len) {
+            return i;
+        } else {
+            i = i + 1;
+        }
+    }
+    return i;
+}
+
+int main() {
+    String s = {"abcdef", 6};
+    String b = {"a", 1};
+    printf("%d", find(s, b));
+    return 0;
+}
