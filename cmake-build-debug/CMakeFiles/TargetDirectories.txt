@@ -1,3 +1,3 @@
-D:/web/C99/cmake-build-debug/CMakeFiles/C99.dir
-D:/web/C99/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/web/C99/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Administrator/Desktop/C99/cmake-build-debug/CMakeFiles/C99.dir
+C:/Users/Administrator/Desktop/C99/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Administrator/Desktop/C99/cmake-build-debug/CMakeFiles/rebuild_cache.dir

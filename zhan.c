@@ -52,12 +52,6 @@ void print(Node *S) {
 
 int main() {
     Node *node = initStack();
-    push(node, 1);
-    push(node, 2);
-    push(node, 3);
-    push(node, 4);
-    pop(node);
-    pop(node);
-    print(node);
+    printf("%d", pop(node));
 
 }
