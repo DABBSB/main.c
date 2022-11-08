@@ -22,6 +22,31 @@ BTNode *createBTNode(ElementType data) {
     node->right = NULL;
     return node;
 }
+
+void InorderTraversal( BtNode BT )//中序：左中右
+{
+    if(BT==NULL)return;
+    InorderTraversal( BT->left );
+    printf(" %c",BT->data);//注意：空格
+    InorderTraversal( BT->right );
+}
+
+void PreorderTraversal( BtNode BT )//先序：中左右
+{
+    if(BT==NULL)return;
+    printf(" %c",BT->data);
+    PreorderTraversal(BT->left);
+    PreorderTraversal(BT->right);
+}
+
+void PostorderTraversal( BtNode BT )//后序：左右中
+{
+    if(BT==NULL)return;
+    PostorderTraversal(BT->left);
+    PostorderTraversal(BT->right);
+    printf(" %c",BT->data);
+}
+
 //层级遍历
 void level(BtNode BT) {
     if (BT == NULL) {
