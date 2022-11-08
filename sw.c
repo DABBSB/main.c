@@ -22,7 +22,7 @@ BTNode *createBTNode(ElementType data) {
     node->right = NULL;
     return node;
 }
-
+//层级便利
 void level(BtNode BT) {
     if (BT == NULL) {
         return;
